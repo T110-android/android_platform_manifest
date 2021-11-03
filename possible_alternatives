@@ -1,0 +1,7 @@
+<project name="T210-dev/android_frameworks_native.git" path="frameworks/native" remote="github" revision="cm-11.0"/>
+<project path="hardware/marvell" remote="T210-dev" name="android_hardware_marvell" />
+<project path="vendor/marvell/generic" remote="T210-dev" name="android_vendor_marvell_generic" />
+<project path="vendor/samsung/lt02wifi" remote="T210-dev" name="android_vendor_samsung_lt02wifi" />
+<project path="device/samsung/lt02wifi" remote="T210-dev" name="android_device_samsung_lt02wifi" />
+<project path="kernel/samsung/lt02" remote="T210-dev" name="android_kernel_samsung_lt02" />
+<project path="platform_manifest" remote="T210-dev" name="android_platform_manifest" />
