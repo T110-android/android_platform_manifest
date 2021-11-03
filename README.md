@@ -15,8 +15,7 @@ https://forum.xda-developers.com/t/guide-how-to-build-your-own-cm11-from-local-s
 
 To fix `fatal error: CSSGrammar.hpp: No such file or directory`, after you get it:
 
-`cd out/target/product/goyawifi/obj/GYP/shared_intermediates/blink
-
+```
+cd out/target/product/goyawifi/obj/GYP/shared_intermediates/blink
 ln -s CSSGrammar.h CSSGrammar.hpp
-
-ln -s XPathGrammar.h XPathGrammar.hpp`
+ln -s XPathGrammar.h XPathGrammar.hpp```
