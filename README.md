@@ -18,4 +18,5 @@ To fix `fatal error: CSSGrammar.hpp: No such file or directory`, after you get i
 ```
 cd out/target/product/goyawifi/obj/GYP/shared_intermediates/blink
 ln -s CSSGrammar.h CSSGrammar.hpp
-ln -s XPathGrammar.h XPathGrammar.hpp```
+ln -s XPathGrammar.h XPathGrammar.hpp
+```
