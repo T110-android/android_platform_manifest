@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="T210-dev" fetch="https://github.com/T210-dev/" />
+  <remote  name="T110-android" fetch="https://github.com/T110-android/" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="device/samsung/goyawifi"      remote="T110-android" name="android_device_goyawifi" revision="master"/>
+  <project path="vendor/samsung/goyawifi"      remote="T110-android" name="android_vendor_goyawifi" revision="main"/>
+  <project path="kernel/samsung/goyawifi"      remote="T110-android" name="android_kernel_samsung_goyawifi" revision="master"/> 
+  <project path="vendor/marvell/external"      remote="T110-android" name="android_vendor_marvell_external" />
+  <project path="hardware/libhardware"         remote="T110-android" name="android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy"  remote="T110-android" name="android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/marvell" name="GalaxyTab4/maxicm_hardware_marvell" remote="github" revision="cm-11.0"/>
+  <project path="device/samsung/marvell-common" name="GalaxyTab4/maxicm_device_samsung_marvell-common" remote="github" revision="cm-11.0"/>
+</manifest>
