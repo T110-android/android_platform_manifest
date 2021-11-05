@@ -5,7 +5,7 @@ Init the CM11.0 repo, use --depth=1 to don't fetch all the unnecessary files.
 
 Replace local_manifest.xml to cm11.0/.repo/local_manifests/local_manifest.xml then:
 
-`repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)`
+`repo sync  -f -c --force-sync --no-clone-bundle --no-tags -j$(nproc --all)`
 
 Guides:
 
