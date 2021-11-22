@@ -7,7 +7,7 @@
 
 ## How To Set Up Sources
 
-```shell
+```
 repo init --depth=1 -u git://github.com/CyanogenMod/android.git -b cm-11.0
 git clone git://github.com/T110-android/android_platform_manifest.git .repo/local_manifests && rm -rf .repo/local_manifests/.git/
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
@@ -15,7 +15,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ## How To Build
 
-```shell
+```
 . build/envsetup.sh
 lunch cm_goyawifi-[buildtype = eng|user|userdebug]
 mka [target = bacon, otapackage, bootimage etc.]
