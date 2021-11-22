@@ -1,5 +1,12 @@
 # android_platform_manifest
 
+## Requirements To Build
+- A decent CPU
+- 8GB of RAM
+- 100GB of storage
+- JDK 6
+- [Android Build Dependencies](https://source.android.com/setup/build/initializing#setting-up-a-linux-build-environment)
+
 ## How To Set Up Sources
 
 ```
