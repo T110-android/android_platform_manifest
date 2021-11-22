@@ -1,5 +1,3 @@
-# android_platform_manifest
-
 ## Requirements To Build
 - A decent CPU
 - 8GB of RAM
