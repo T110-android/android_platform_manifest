@@ -32,9 +32,9 @@ mka bacon
 ## Errors
 - `fatal error: CSSGrammar.hpp: No such file or directory`
   - ```
-cd out/target/product/goyawifi/obj/GYP/shared_intermediates/blink
-ln -s CSSGrammar.h CSSGrammar.hpp
-ln -s XPathGrammar.h XPathGrammar.hpp
-```
+  cd out/target/product/goyawifi/obj/GYP/shared_intermediates/blink
+  ln -s CSSGrammar.h CSSGrammar.hpp
+  ln -s XPathGrammar.h XPathGrammar.hpp
+  ```
 - `Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.`
   - `export LC_ALL=C`
