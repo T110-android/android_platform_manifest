@@ -36,3 +36,5 @@ mka bacon
   - `ln -s XPathGrammar.h XPathGrammar.hpp`
 - `Assertion 'cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.`
   - `export LC_ALL=C`
+
+### Good luck and have fun building CyanogenMod!
