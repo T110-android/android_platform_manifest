@@ -7,7 +7,7 @@
 - JDK 6
 - [Android Build Dependencies](https://source.android.com/setup/build/initializing#setting-up-a-linux-build-environment)
 
-## How To Set Up Sources
+## How To Set Up Minimal CM11 Sources
 
 ```
 repo init --depth=1 -u git://github.com/CyanogenMod/android.git -b cm-11.0
