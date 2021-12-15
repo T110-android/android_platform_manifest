@@ -3,8 +3,9 @@
 	<remote name="T110-android" fetch="https://github.com/T110-android/" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-	<project path="device/samsung/goyawifi" remote="T110-android" name="android_device_goyawifi" revision="cm-11.0" />
-	<project path="vendor/samsung/goyawifi" remote="T110-android" name="android_vendor_goyawifi" revision="main" />
+	<project path="device/samsung/goyawifi" remote="T110-android" name="android_device_samsung_goyawifi" revision="cm-11.0" />
+  	<project path="device/samsung/goya-common" remote="T110-android" name="android_device_samsung_goya-common" revision="cm-11.0" />
+	<project path="vendor/samsung/goyawifi" remote="T110-android" name="android_vendor_samsung_goyawifi" revision="main" />
 	<project path="kernel/samsung/goyawifi" remote="T110-android" name="android_kernel_samsung_goyawifi" revision="cm-11.0" />
 	<project path="vendor/marvell/external" remote="T110-android" name="android_vendor_marvell_external" revision="cm-11.0" />
 	<project path="hardware/libhardware" remote="T110-android" name="android_hardware_libhardware" groups="pdk" />
