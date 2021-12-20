@@ -3,6 +3,7 @@
 	<remote name="T110-android" fetch="https://github.com/T110-android/" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+	<remove-project name="CyanogenMod/android_hardware_broadcom_libbt" />
 	
 	<!-- Device Trees -->
 	<project path="device/samsung/goyawifi" remote="T110-android" name="android_device_samsung_goyawifi" revision="cm-11.0" />
