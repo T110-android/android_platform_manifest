@@ -18,6 +18,6 @@
 	<project path="device/samsung/marvell-common" remote="T110-android" name="android_device_samsung_marvell-common" revision="cm-11.0" />
 	<project path="hardware/marvell" remote="T110-android" name="android_hardware_marvell" revision="cm-11.0" />
 	<project path="vendor/marvell/external" remote="T110-android" name="android_vendor_marvell_external" revision="cm-11.0" />
-	<project path="hardware/libhardware" remote="T110-android" name="android_hardware_libhardware" groups="pdk" />
-	<project path="hardware/libhardware_legacy" remote="T110-android" name="android_hardware_libhardware_legacy" groups="pdk" />
+	<project path="hardware/libhardware" remote="T110-android" name="android_hardware_libhardware" groups="pdk" revision="cm-10.1"/>
+	<project path="hardware/libhardware_legacy" remote="T110-android" name="android_hardware_libhardware_legacy" groups="pdk" revision="cm-10.1"/>
 </manifest>
